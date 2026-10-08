@@ -1,0 +1,45 @@
+# 终端神器速查表 · Terminal Superpowers
+
+> 🌍 [Español](README.es.md) · [Português](README.pt.md)
+
+一份**一页纸**的 2026 年终端效率工具速查表：14 个真正值得装的工具，每个条目只讲四件事——**它是干什么的、一条安装命令、一条上手命令、适用场景标签**。不灌水，不凑数。
+
+## 面向谁
+
+运维工程师、后端开发者，以及每天活在终端里的你。如果你还在用裸 `cd`、`ls`、`cat`、`grep` 干活，这张表能让你每天省下半小时。
+
+## 怎么用
+
+1. 直接看 **[CHEATSHEET.md](CHEATSHEET.md)** ——速查表正文，中英双语开发者都无压力。
+2. 先装"新手包"，一条命令搞定常用项（macOS / Homebrew）：
+   ```bash
+   brew install zoxide fzf fd ripgrep eza bat starship lazygit tldr btop tmux zellij
+   ```
+   Debian/Ubuntu 用户：上面多数工具同样可以 `sudo apt install <名字>`。
+3. 每个工具先跑一遍"试一试"那条命令，五分钟就知道它值不值得留。
+
+## 收录了什么
+
+| 分类 | 工具 |
+|---|---|
+| 🆕 2026 新贵 | cmux（为 AI 编程智能体而生的终端）、yoinks（终端里下载各平台视频） |
+| 🧭 导航与搜索 | zoxide（智能 cd）、fzf（模糊搜索）、fd（find 替代）、ripgrep（grep 替代） |
+| 🖥️ 终端复用与提示符 | tmux（经典终端复用）、zellij（现代终端工作区）、starship（智能提示符） |
+| 📄 文件查看 | eza（ls 替代）、bat（cat 替代） |
+| 🛠️ 开发提效 | lazygit（git 可视化操作）、tldr（命令速查） |
+| 📊 监控 | btop（资源监控） |
+
+所有官网 / GitHub 链接都经过核实，安装命令均为真实可用。
+
+## 为什么是这 14 个
+
+- **2026 新贵**：cmux、yoinks 是今年在 GitHub 上冒头的新工具，解决的是 AI 编程时代的新问题。
+- **常青神器**：其余 12 个是经年验证的经典，每一个都替代了一个难用的 Unix 老命令，且快得多、好看得多。
+
+## 欢迎 PR
+
+发现更好的工具、命令写错了、翻译不到位——欢迎提 Pull Request。新增条目请保持统一格式（功能 / 安装 / 上手 / 标签），**提交前请核实链接真实有效**。
+
+## License
+
+MIT © 2026 Guangyi Zhao，详见 [LICENSE](LICENSE)。
