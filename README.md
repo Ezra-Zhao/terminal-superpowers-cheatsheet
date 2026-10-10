@@ -15,7 +15,7 @@
    ```bash
    brew install zoxide fzf fd ripgrep eza bat starship lazygit tldr btop tmux zellij
    ```
-   Debian/Ubuntu 用户：上面多数工具同样可以 `sudo apt install <名字>`。
+   Debian/Ubuntu 用户注意三处坑：`fd` 装完二进制叫 `fdfind`、`bat` 叫 `batcat`（可自己 alias 回来）；`eza` 不在默认源里，需加第三方源。别照着上面的名字直接 apt。
 3. 每个工具先跑一遍"试一试"那条命令，五分钟就知道它值不值得留。
 
 ## 收录了什么
