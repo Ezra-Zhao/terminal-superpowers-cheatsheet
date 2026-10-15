@@ -1,5 +1,7 @@
 # 终端神器速查表 · Terminal Superpowers
 
+[![Stars](https://img.shields.io/github/stars/Ezra-Zhao/terminal-superpowers-cheatsheet?style=social)](https://github.com/Ezra-Zhao/terminal-superpowers-cheatsheet/stargazers) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) ![Languages](https://img.shields.io/badge/languages-3-blue)
+
 > 🌍 [Español](README.es.md) · [Português](README.pt.md)
 
 一份**一页纸**的 2026 年终端效率工具速查表：14 个真正值得装的工具，每个条目只讲四件事——**它是干什么的、一条安装命令、一条上手命令、适用场景标签**。不灌水，不凑数。
